@@ -1,6 +1,6 @@
 /** Problem 04 - (Delete / Store) */
-var fileName= "pdfData.jpg";
-if (fileName.includes(".pdf") || fileName.includes("#")) {
+var fileName= "docx.txt";
+if (fileName.includes(".pdf") || fileName.includes("#") || fileName.includes(".docx")) {
     console.log("Store");
 }else{
     console.log("Delete");
